@@ -1,19 +1,26 @@
 # ios-swinject-storyboard-demo
 画面遷移時にパラメタを渡す
 
-## 1. import する
+## 1. PodFile
+
+```
+pod 'Swinject', '2.0.0'
+pod 'SwinjectStoryboard', '1.0.0'
+```
+
+## 2. import する
 ```
 import Swinject
 import SwinjectStoryboard
 ```
 
-## 2. Containerのインスタンスを生成
+## 3. Containerのインスタンスを生成
 
 ```
     let container = Container()
 ```
 
-## 3. AnimalViewControllerとCatオブジェクト(Animalプロトコル)を関連付ける
+## 4. AnimalViewControllerとCatオブジェクト(Animalプロトコル)を関連付ける
 
 ```
         container.storyboardInitCompleted(AnimalViewController.self) { r, c in
@@ -22,7 +29,7 @@ import SwinjectStoryboard
         container.register(Animal.self) { _ in Cat(name: "串田") }
 ```        
     
-## 4. Storyboardを呼び出す
+## 5. Storyboardを呼び出す
 
 ```
         let sb = SwinjectStoryboard.create(name: "Main",
