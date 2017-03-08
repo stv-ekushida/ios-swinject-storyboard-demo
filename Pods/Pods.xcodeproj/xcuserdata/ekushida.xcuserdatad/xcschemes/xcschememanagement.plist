@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ios-swinject-storyboard-demo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ios-swinject-storyboard-demoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Swinject.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwinjectStoryboard.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1C84660FD5952E9DDCC6B5E2F843EDDB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>620BE37B03117F187D57095A87177CF2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6551AFCD1CC4D3B178C9867ECFB9BB88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>961CD99DAAE08570741D501DA1AD0215</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

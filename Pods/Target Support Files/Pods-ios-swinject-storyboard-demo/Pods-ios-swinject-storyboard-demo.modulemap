@@ -1,0 +1,6 @@
+framework module Pods_ios_swinject_storyboard_demo {
+  umbrella header "Pods-ios-swinject-storyboard-demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
