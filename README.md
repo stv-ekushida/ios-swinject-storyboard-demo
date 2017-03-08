@@ -12,7 +12,7 @@ import SwinjectStoryboard
     let container = Container()
 ```
 
-## 3. AnimalViewControllerにCatオブジェクト(Animalプロトコル)と関連付ける
+## 3. AnimalViewControllerとCatオブジェクト(Animalプロトコル)を関連付ける
 
 ```
         container.storyboardInitCompleted(AnimalViewController.self) { r, c in
