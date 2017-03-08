@@ -1,4 +1,5 @@
 # ios-swinject-storyboard-demo
+画面遷移時にパラメタを渡す
 
 ## 1. import する
 ```
