@@ -1,5 +1,6 @@
 # ios-swinject-storyboard-demo
-画面遷移時にパラメタを渡す
+ViewController生成時に依存性を注入するサンプルです。
+（画面遷移時にパラメタを渡す）
 
 ## 1. PodFile
 
